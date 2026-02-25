@@ -386,7 +386,7 @@ h1, h2, h3{
 }
 
 .landing-phone{
-  margin: 8px 0 4px;
+  margin: 8px 0 12px;
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -406,7 +406,7 @@ h1, h2, h3{
 .landing-location{
   display: flex;
   justify-content: center;   /* 🔥 center horizontally */
-  margin-top: 6px;
+  margin-top: 12px;
   white-space: nowrap;
   font-size: 14px;
 }
@@ -428,7 +428,8 @@ h1, h2, h3{
 }
 
 .landing-phone{
-  margin-bottom: 2px;
+  margin-top: 10px; /* push to bottom */
+
 }
 
 
@@ -449,8 +450,8 @@ h1, h2, h3{
 }
 
 .landing-title{
-  margin: 0 auto;
-  font-size: 40px;
+  margin: 10px auto 28px;
+  font-size: 38px;
   font-weight: 900;
   color: #fff;
   line-height: 1.1;
@@ -799,7 +800,7 @@ button, .choice, .btn, a {
 }
 
 .hero-logo img {
-  height: 180px;           /* desktop size - increased */
+  height: 200px;           /* desktop size - increased */
   width: auto;
   display: block;
 }
@@ -813,6 +814,6 @@ button, .choice, .btn, a {
   }
 
   .hero-logo img {
-    height: 130px;
+    height: 160px;
   }
 }
